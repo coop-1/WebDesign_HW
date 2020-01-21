@@ -1,0 +1,102 @@
+
+.navbar.navbar-expand-lg.navbar-light{
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    background-color: gainsboro;
+    max-width: 100%;
+    text-emphasis-color: white;
+}
+
+.navbar-main{
+    font-size: 18px;
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.summary{
+    display: inline-block;
+    padding-bottom: 10%;
+}
+
+.Description {
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    margin-top: 2%;
+    float: left;
+    margin-left: 3%;
+    width: 650px;
+    font-size: 14px;
+    outline: 1px solid black;
+    outline-offset: 15px;
+    width: 45%;
+    position: relative;
+    background-color: gainsboro;
+}
+
+.collapse.navbar-collapse{
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.Description img{
+    padding-right: 5%;
+}
+
+.Visualizations {
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-left: 3%;
+    float: right;
+    outline: 1px solid black;
+    outline-offset: 15px;
+    width: 22%;
+    max-width: 31%;
+    position: relative;
+    background-color: gainsboro;
+    display: inline-block;
+}
+
+.images1{
+    display: inline-block;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%
+}
+
+.images2{
+    display: inline-block;
+    overflow: hidden;
+    float:left;
+    margin-left: 1%;
+    margin-top: 1%  
+}
+
+h1{
+    text-align: left;
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.PageTitle{
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+.table-striped{
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-size: 12px;
+    margin-bottom: 3%;
+}
+
+.PageTitle{
+    font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.maintext{
+    font-size: 18px;
+}
+
+.maindescription{
+    font-size: 14px;
+}

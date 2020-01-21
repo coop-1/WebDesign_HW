@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Global.W3ather</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color:lightgray;">
+
+    <nav class="navbar navbar-expand-lg navbar-light right">
+        <a class="navbar-brand navbar-nav navbar-right" href="index.html">_Latitud3_</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-right navbar-nav navbar-right">
+              <li class="dropdown">
+                <a class="nav-link" href="WeatherViz_Comparison.html">Comparison</a>
+              </li>
+              <li class="dropdown">
+                <a class="nav-link" href="WeatherData.html">Data</a>
+              </li>
+              <div class="btn-group-right dropright">
+                <a class="nav-link dropdown-toggle dropdown-menu-right" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="WeatherViz_Temp.html">Max_Temperature</a>
+                    <a class="dropdown-item" href="WeatherViz_Humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="WeatherViz_Wind.html">Wind_Speed</a>
+                    <a class="dropdown-item" href="WeatherViz_Cloudiness.html">Cloudiness</a>
+                </ul>
+              </div>
+          </ul>
+        </div>
+    </nav>
+
+  <div class = "PageTitle">
+        <a class = "maintext">Latitude_vs_Cloudiness</a>
+        <br>
+        <br>
+    </div>
+
+  <div class = "summary">
+    <div class = "Description">
+        <h1 class = "summary-title">Summary</h1>
+        <p style = "float: left;"><img src="visualizations/Lat_vs_Cloudiness.jpeg" width="250" height="187.5"></p>
+        <br>
+        <br>
+        <p class = "analysis">With our current analysis, it is difficult to find any obvious correlation between latittude and humidity. There is a clear band of many data points at 100% humidity, and there do seem to be strong clusters of high humidity around the equator and in some other areas (e.g. a strong band of 0% humidity at latitude > 60). Further analysis is required</p>
+    </div>
+    <div class ="Visualizations">
+      <h2 class = "Viz-title">Visualizati0ns</h2>
+      <div class = "image_wrapper">
+        <div class = "images1">
+          <a href="WeatherViz_Temp.html">
+            <img src="visualizations/Lat_vs_Temp.jpeg" width="200" height="150">
+          </a>
+        </div>
+        <div class = "images1">
+          <a href="WeatherViz_Wind.html">
+            <img src="visualizations/Lat_vs_Wind.jpeg" width="200" height="150">
+          </a>
+        </div>
+        <div class = "images2">
+          <a href="WeatherViz_Humidity.html">
+            <img src="visualizations/Lat_vs_Hum.jpeg" width="200" height="150">
+          </a>
+        </div>
+        <div class = "images2">
+          <a href="WeatherViz_Cloudiness.html">
+            <img src="visualizations/Lat_vs_Cloudiness.jpeg" width="200" height="150">
+          </a>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
